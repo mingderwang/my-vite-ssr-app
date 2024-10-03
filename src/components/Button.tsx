@@ -3,7 +3,7 @@ export default function Button() {
   return (
     <div className="card">
       <button onClick={() => sendUserOperation()
-      }></button>
+      }>click to send</button>
     </div>
   );
 }
